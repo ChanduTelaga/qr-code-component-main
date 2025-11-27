@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(212, 45%, 89%);
+}
+
+.container {
+  width: 15.5rem;
+  height: 25rem;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 11px;
+  margin: auto;
+  margin-top: 9rem;
+  margin-bottom: 9rem;
+  box-shadow: 1px 5px rgb(135, 135, 135);
+  text-align: center;
+  padding: 10px;
+}
+
+.container img {
+  width: 14rem;
+  height: 15rem;
+  align-self: center;
+  margin-bottom: 15px;
+  border-radius: 10px;
+}
+
+.text {
+  text-align:justify;
+  width: 13rem;
+  margin: auto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.text span {
+  color: hsl(218, 44%, 22%);
+  font-weight: 700;
+  font-family: outfit;
+  font-size: 16px;
+  display: inline-block;
+}
+
+.text p {
+  font-size: 10px;
+  word-spacing: 1px;
+  letter-spacing: 0.5px;
+  font-weight: 400;
+  color: hsl(216, 15%, 48%);
+}
+
+.text > p:nth-of-type(1) {
+  margin-top: 16px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+  font-family: "Outfit", sans-serif;
+}
+
+@media screen and (max-width: 375px) {
+  .container {
+    width: 13rem;
+    height: 21rem;
+  }
+
+  .container img {
+    width: 12rem;
+    height: 13rem;
+  }
+
+  .text {
+    text-align: center;
+    width: 12rem;
+    margin: auto;
+  }
+}
