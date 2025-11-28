@@ -16,8 +16,8 @@ body {
 }
 
 .container {
-  width: 15.5rem;
-  height: 25rem;
+  width: 18rem;
+  height: 28rem;
   background-color: var(--white);
   border-radius: 11px;
   margin: auto;
@@ -25,19 +25,19 @@ body {
   margin-bottom: clamp(2rem, 5vw, 9rem);
   box-shadow: 1px 5px rgba(135, 135, 135, 0.5);
   text-align: center;
-  padding: 0.625rem;
+  padding: 1rem;
 }
 
 .container img {
-  width: 14rem;
-  height: 15rem;
+  width: 16rem;
+  height: 16rem;
   align-self: center;
   margin-bottom: 1rem;
   border-radius: 10px;
 }
 
 .text {
-  width: 13rem;
+  /* width: 13rem; */
   margin: auto;
 
   display: flex;
@@ -50,12 +50,12 @@ body {
   color: var(--dark-blue);
   font-weight: 700;
   font-family: 'outfit', sans-serif;
-  font-size: 16px;
+  font-size: 1.2rem;
   display: inline-block;
 }
 
 .text p {
-  font-size: 10px;
+  font-size: 0.8rem;
   word-spacing: 1px;
   letter-spacing: 0.5px;
   font-weight: 400;
