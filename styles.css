@@ -21,9 +21,9 @@ body {
   background-color: var(--white);
   border-radius: 11px;
   margin: auto;
-  margin-top: clamp(2rem, 5vw, 9rem);
+  margin-top: clamp(10rem, 5vw, 9rem);
   margin-bottom: clamp(2rem, 5vw, 9rem);
-  box-shadow: 1px 5px rgb(135, 135, 135);
+  box-shadow: 1px 5px rgba(135, 135, 135, 0.5);
   text-align: center;
   padding: 0.625rem;
 }
@@ -32,7 +32,7 @@ body {
   width: 14rem;
   height: 15rem;
   align-self: center;
-  margin-bottom: 15px;
+  margin-bottom: 1rem;
   border-radius: 10px;
 }
 
@@ -49,7 +49,7 @@ body {
 .text span {
   color: var(--dark-blue);
   font-weight: 700;
-  font-family: outfit;
+  font-family: 'outfit', sans-serif;
   font-size: 16px;
   display: inline-block;
 }
